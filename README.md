@@ -1,2 +1,2 @@
-# dotfiles
+# mac setup
 Some personal configuration
