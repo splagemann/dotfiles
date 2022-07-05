@@ -13,9 +13,8 @@ brew install dsh
 brew install saml2aws
 brew install asdf
 brew install awscli
-brew install gmp 
-brew install libsodium
-brew install imagemagick
+brew install php@8.1
+brew install mysql-client
 
 brew install --cask brave-browser
 brew install --cask visual-studio-code
@@ -38,6 +37,8 @@ mas install 441258766
 mas install 967805235
 # Spark
 mas install 1176895641
+# Microsoft To
+mas install 1274495053
 
 # Runtimes
 echo "ruby 2.7.1
@@ -46,11 +47,8 @@ terraform 1.1.2
 golang 1.18.1
 terragrunt 0.38.0
 nodejs 16.13.1
-php 8.1.7
+python 3.10.5
 " > ~/.tool-versions
-
-asdf plugin add php
-asdf install php
 
 asdf plugin add golang
 asdf install golang
@@ -63,6 +61,9 @@ asdf install terragrunt
 
 asdf plugin add nodejs
 asdf install nodejs
+
+asdf plugin add python
+asdf install python
 
 # Repos
 mkdir Development
